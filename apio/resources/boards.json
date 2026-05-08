@@ -28,6 +28,22 @@
       "desc": "(?:Dual RS232-HS)|(?:Lattice FTUSB Interface Cable)"
     }
   },
+
+  "Soan-Papdi": {
+    "name": "Soan-Papdi",
+    "fpga": "iCE40-UP5K-SG48",
+    "programmer": {
+        "type": "dfu"
+    },
+    "usb": {
+        "vid": "1d50",
+        "pid": "6146"
+    },
+    "ftdi": {
+        "desc": "Soan-Papdi.*"
+    }
+},
+
   "iceblink40-hx1k" : {
     "name": "iCEblink40-HX1K",
     "fpga": "iCE40-HX1K-VQ100",
