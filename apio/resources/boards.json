@@ -42,7 +42,21 @@
     "ftdi": {
         "desc": "Soan-Papdi.*"
     }
-},
+  },
+  "Soan-Papdi-Mini": {
+    "name": "Soan-Papdi-Mini",
+    "fpga": "iCE40-UP5K-SG48",
+    "programmer": {
+        "type": "dfu"
+    },
+    "usb": {
+        "vid": "1d50",
+        "pid": "6146"
+    },
+    "ftdi": {
+        "desc": "Soan-Papdi-Mini.*"
+    }
+  },
 
   "iceblink40-hx1k" : {
     "name": "iCEblink40-HX1K",
